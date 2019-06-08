@@ -1,0 +1,105 @@
+1 - <br/> => quebra uma linha de uma frase.
+2 - &nbsp; => São pequenos espaços.
+3 - <wbr> => quebra uma palavra, ex:super<wbr>humano, no final da margem do texto, é melhor usado na quebra de um código, ou email.
+4 - &shy; (Soft Hyphen) => Quebra a palavra no final da margem do texto e ainda coloca o hifen, ou seja usa a hifenização.
+5 - <b> negrito</b>
+6 - <i> italico </i>
+7 - <em> italico </em>
+8 - <u>depreciada</u> ==  
+9 - <s>risco</s> (strike) = <del/>
+10 - <span> => serve para formatar pequenos trechos do texto. == <span style="text-decoration: underline;"...</span>
+11 - underline colocar uma linha abaixo da palavra
+12 - overline colocar uma linha acima da palavra
+13 - line-through coloca uma linha no meio da palavra
+14 - none não coloca nada, explicação cursos em videos 7 - 07:00.
+15 - font-wight, bold, bolder
+16 - colocando limites no negrito == <span style="font-weight:400" varia de 100 até 900, Cvideos 7 - 08:20
+17 - <style "text-align=center", left e o right
+
+18 - <style "text-align:justify";
+
+19 - indentação == <p style="text-align: justify; text-indent: 50px"> Cursos em Vídeos 7 - 12:20
+
+20 - sobreescrever <sup></sup> a palavra fica acima das outras, ex:<p>x<sup>2</sup> == x²
+
+21 - subescrever <sub></sub> a palavra fica abaixo das demais, ex: <p> h<sub>2O</sub> == h + 2Oxigênio
+
+22 - <code> É uma tag semântica que mostra para o navegador que o trecho de código, que não deve ser considerada, faz parte de uma outra linguagem como abaixo a C++. CV 7 - 17:25
+como o trecho de código abaixo do C++
+
+#include <iostream>
+int main()  {
+	cout <<"Olá!";
+		return 0;
+	}
+</code>
+
+Será necessário no caso da tag<iostream> coloccá-lo da seguinte forma &lt;iostream&g; - pois o HTML5 vai tentar atuar na tag que neste caso não existe para ela.
+
+23 - <pre> == mantém do jeito que foi digitado na tela
+<code>
+#include &lt;iostream&gt;
+	int main() {
+	cout<<"Olá!";
+		return 0;
+	}
+</code> ou seja esta tag exibe do jeito que foi digita na tela do computador uma formação de outra linguagem, por ex acima do C++; ela é semântica ela mostra um trecho de código. CV 7 - 17:25
+</pre> == mantém do jeito que foi digitado na tela
+
+24 - bgcolor="red" =>= está descontinuado;<body style=background-color:red";>
+
+25 - background-image: url("fundo.jpg"); - fundo de aço escovado uma imagem em aluminio no formato jpg.
+
+26 - rgba(0,0,0,0-1) == (vermelho,verde, azul, canal alfa)
+
+27 - <figure> dá significado semântico a imagem
+
+28 - 
+
+29 - <a href="" target="_blank">abre em outra aba
+
+30 - <a href="" target="_self"> abre na mesma aba.
+ 
+
+
+
+
+ - Símbolos especiais:
+&lt; => <
+&gt; => >
+&le; => <=
+&ge; => >=
+
+&pound; => libras
+&yen; =: yen
+&euro; => euro
+
+&copy; => copyright
+&reg; => marca registrada
+&trade; => trade market
+
+&permil; => dividido por mil
+&sum; 	=> soma
+&infin;	=>infinito
+&times;	=> vezes
+&plusmn; 	=> +-
+&oplus;		=> o mais dentro de uma circunferência
+&radic;		=> simbolo de raiz quadrada
+&ne;		=> no equal, diferênte
+
+&delta		=> Delta minúsculo
+&Delta      => Delta maiúsculo
+&Lambda;
+&omega;
+&phi;
+
+&larr; 		=> seta para a direita
+&rarr ou &Rarr;	=> seta para a esquerda ou seta p esq diferente
+&uprr;		=> seta para cima
+&darr;		=> seta para baixo
+&harr;		=> setas para os dois lados
+
+&spades; 	=> espada
+&clubs;		=> copas
+&hearts;	=> coração
+&diams;		=> diamante
