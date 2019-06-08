@@ -1,20 +1,59 @@
 @charset="utf-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+/* Importei esta fonte do Google fonts*/
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../../assets/image/bubblegum-sans-regular.otf");
+}
+
+/* Fontes Próprias e repositórios públicos, ex: "google/fontes" CV 17 04:10 e 07:40; 
+É possível importar fontes como do Google */
+
 body {
-	background-color:#fff;
+	background-color:#ddd;
 	color:#000;
 }
-div {
-	width:1000px;
+div#interface {
+	width:930px;
 	margin:auto;
+	background-color:#fff;
+	margin: -30px auto 0px auto;
 }
 p {
 	text-align: justify;
 	text-indent: 50px;
 }
+header#cabecalho img#icone {
+	position: absolute;
+	left:860px;
+	top:50px;
+}
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height:150px;
+	background: url("../../assets/image/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30px;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding:0px;
+	margin-bottom: 0px;
+}
+header#cabecalho h2 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #888
+	font-size: 15px;
+	padding:0px; 
+	margin-top: 0px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
 /*Formatação de imagens com legendas*/
 
 figure.foto-legenda {
-	position:relative;
+	position: relative;
 	border: 8px solid white;
 	box-shadow: 1px 1px 4px black;
 	/*deslocamento horizontal, vertical, de espalhamento e cor.*/
@@ -39,6 +78,130 @@ figure.foto-legenda:hover figcaption {
 	opacity:1;
 	transition: opacity 1s;
 }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* Formatação de Menu */
+
+nav#menu {
+	display:block;
+}
+nav#menu ul {
+	list-style:none;
+	text-transform:uppercase;
+	position:absolute;
+	top:-20px;
+	left:450px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color:#ddd;
+	padding:10px;
+	margin:2px;
+	transition: background-color 1s;
+}
+nav#menu li:hover {
+	background-color:#606060;
+ }
+
+	/*transition está em fase de implementação e tem uma forma de manter a retro compatibilidade "burlar" para os
+navegadores mais antigos,CV 14 07:00, 
+site prefixr(Cross-Browser)*/
+
+nav#menu h1 { 
+	display:none;
+}
+#menu a { 
+	text-decoration:none; 
+}
+#menu a:hover {
+	 text-decoration:underline;
+	 color:#fff; 
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+section#corpo {
+	display: block;
+	width: 500px;
+	float:left;
+	border-right: 1px solid red;
+	margin:12px;
+	padding-right:12px;
+}
+
+table#tabelaspec {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	/*retira o espaço entre as celulas, ou seja une a lateral de uma borda com a lateral de outra borda*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec td {
+	border: 1px solid #606060;
+	padding:10px;
+	text-align:center;
+	/*vertical-align: top; == alinha as palavras neste caso na parte superior da célula nela inserida*/
+	vertical-align:top;
+}
+
+aside#lateral {
+	display:block;
+	width: 400px;
+	float:right;
+}
+footer#rodape {
+	clear:both;
+	border-top: 1px solid red;
+	height:80px;
+	text-align:center;
+}
+footer#rodape p {
+	text-align:center;
+}
+footer#rodape a {
+	color:green;
+	text-decoration:none;
+}
+footer#rodape a:hover {
+	color:#000;
+	background-color:#eee;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
