@@ -10,6 +10,7 @@
 É possível importar fontes como do Google */
 
 body {
+	font-family: Arial, sans-serif;
 	background-color:#ddd;
 	color:#000;
 }
@@ -17,16 +18,25 @@ div#interface {
 	width:930px;
 	margin:auto;
 	background-color:#fff;
-	margin: -30px auto 0px auto;
+	margin: -20px auto 0px auto;
 }
 p {
 	text-align: justify;
 	text-indent: 50px;
 }
+
+a {
+	color:#606060;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 header#cabecalho img#icone {
 	position: absolute;
-	left:860px;
-	top:50px;
+	left:940px;
+	top:45px;
 }
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
@@ -122,11 +132,45 @@ nav#menu h1 {
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 section#corpo {
 	display: block;
-	width: 500px;
+	width: 490px;
 	float:left;
-	border-right: 1px solid red;
+	border-right: 1px solid #cecece;
 	margin:12px;
 	padding-right:12px;
+}
+
+article#noticia-principal h2 {
+	font-size: 12pt;
+	color: #606060;
+	background-color: #ddd;
+	padding:5px 0px 5px 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+header#cabecalho-artigo h1 {
+	font-family: 'Fonte-Logo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+
+.direita {
+	text-align:right;
+	font-size:10px;
+	margin-bottom:30px;
+}
+
+header#cabecalho-artigo h2 {
+	font-size: 13pt;
+	color: #cecece;
+	background-color: #fff;
+	margin: 0px;
+}
+header#cabecalho-artigo h3 {
+	font-size: 12px;
+	color: #606060;
 }
 
 table#tabelaspec {
@@ -144,11 +188,53 @@ table#tabelaspec td {
 	/*vertical-align: top; == alinha as palavras neste caso na parte superior da célula nela inserida*/
 	vertical-align:top;
 }
+table#tabelaspec td.ce {
+	color:#fff;
+	background-color:#606060;
+	vertical-align: top;
+	font-weight: bold;
+}
 
+table#tabelaspec td.cd {
+	background-color:#cecece;
+}
+
+table#tabelaspec caption {
+	color: #888;
+	font-size: 14pt;
+	font-weight: bolder;
+
+}
+
+table#tabelaspec caption span {
+	display: block;
+	/*display block faz com que se desconecte do texto, é mostrado como um bloco flutuante */
+	float:right;
+	color: #000;
+	font-size: 9pt;
+	margin-top:10px;
+}
 aside#lateral {
 	display:block;
-	width: 400px;
+	width: 385px;
 	float:right;
+	margin-right:15px;
+	background-color:#ddd;
+	margin-top:10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+}
+
+aside#lateral h2 {
+	background-color: #606060;
+	font-size: 15pt;
+	color: #fff;
+	padding: 10px;
 }
 footer#rodape {
 	clear:both;
@@ -169,27 +255,89 @@ footer#rodape a:hover {
 	text-decoration: underline;
 }
 
+/* A hostnet disponibiliza centenas de tutorias CV 20 10:45, WIKI.HOSTNET.COM.BR  */
 
 
 
+section#area {
+	border: none;
+	margin:12px;
+
+}
 
 
+.lateralDireita {
+	display:block;
+	width:360px;
+	height:310px;
+	float:right;
+	font-size:13px;
+	margin-bottom:40px;
+	padding-right:35px;
+}
+
+.lateralDireita img {
+	display:block;
+	margin:auto;
+	width:360px;
+}
+
+.lateralDireita h1 {
+	background-color:#606060;
+	font-size:18px;
+	color:#fff;
+	margin-bottom:0px;
+	padding:5px;
+	font-family:Arial;
+}
+
+.lateralDireita h3 {
+	background-color:#fff;
+	margin-top:0px;
+	font-size:16px;
+	color:#606060;
+}
+
+/*Formatação das imagens com soon*/
+
+.menuSoon {
+	width:610px;
+	height:405px;
+	list-style:none;
+	margin:auto;
+	padding:0px;
+
+}
+
+.menuSoon li {
+	display:block;
+	width:200px;
+	height:200px;
+	background-color:#eee;
+	list-style:none;
+	float:left;
+	border:1px solid #000;
+}
+
+.cse {
+	margin-bottom:2px;
+	margin-right:2px;
+}
+.csc {
+	margin-bottom:2px;
+}
+.csd {
+	margin-bottom:2px;
+	margin-left:2px;
+}
+.cie {
+	margin-right:2px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cid {
+	margin-left:2px;
+}
 
 
 
