@@ -1,0 +1,23 @@
+[33mcommit 5aaceb1f7088655ae07d6055318447466341c331[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: José Alves <metrodf2013@gmail.com>
+Date:   Mon Jun 10 15:50:35 2019 -0300
+
+    4º commit - coloquei áreas sensíveis numa imagem utilizando o <map> e criei álbum de fotos com efeito de zoom.
+
+[33mcommit 83743af37ceb48e383ade0f6a3ecfcc7fcbbebad[m
+Author: José Alves <metrodf2013@gmail.com>
+Date:   Mon Jun 10 01:14:39 2019 -0300
+
+    3º commit - inclui um html(iframe),google glass html, dentro de specs html, interação do js nos menus indetificadores e tabelas e coloquei textos alternativos na img.
+
+[33mcommit 66f8508ec7c97ba81c3a5e05563472e41a02e415[m
+Author: José Alves <metrodf2013@gmail.com>
+Date:   Sat Jun 8 18:41:23 2019 -0300
+
+    2º commit - inclui tabelas, logo, fontes personalizadas, fontes importadas, menu flutuante, section, aside, footer em mangens
+
+[33mcommit c73a6bb98d40898ffed97a3d134d14857ca129b3[m
+Author: José Alves <metrodf2013@gmail.com>
+Date:   Sat Jun 8 01:51:06 2019 -0300
+
+    primeiro commit incluindo as pastas html, js, css, txt, md e image
